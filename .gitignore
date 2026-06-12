@@ -30,3 +30,11 @@ backend/sessions/*.json
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Local environments and generated files
+.venv/
+env/
+project_venv/
+.env.*
+!.env.example
+!.env.sample
